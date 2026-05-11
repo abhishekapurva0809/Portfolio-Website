@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills | Abhishek Apurva</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script>
+        (function () {
+            try {
+                var theme = localStorage.getItem('theme');
+                if (theme !== 'light') {
+                    document.documentElement.classList.add('dark');
+                }
+            } catch (e) { }
+        })();
+    </script>
+</head>
+
+<body>
+
+    <!-- Mobile Navigation Toggle -->
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle Menu">
+        <i class='bx bx-menu'></i>
+    </button>
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <button class="theme-toggle" id="themeToggle">
+            <i class='bx bx-moon'></i>
+        </button>
+
+        <div class="profile-section">
+            <div class="profile-img-container">
+                <img src="profileImageCircle.jpeg" alt="Abhishek Apurva">
+            </div>
+            <h2 class="profile-name">ABHISHEK APURVA</h2>
+            <div class="profile-title">SOFTWARE ENGINEER</div>
+        </div>
+
+        <nav class="nav-menu">
+            <a href="index.html" class="nav-link">
+                <i class='bx bx-home'></i> HOME
+            </a>
+            <a href="about.html" class="nav-link">
+                <i class='bx bx-info-circle'></i> ABOUT
+            </a>
+            <a href="projects.html" class="nav-link">
+                <i class='bx bx-folder'></i> PROJECTS
+            </a>
+            <a href="skills.html" class="nav-link active">
+                <i class='bx bx-wrench'></i> SKILLS & SERVICES
+            </a>
+            <a href="education.html" class="nav-link">
+                <i class='bx bx-book-open'></i> EDUCATION
+            </a>
+            <a href="contact.html" class="nav-link">
+                <i class='bx bx-envelope'></i> CONTACT
+            </a>
+        </nav>
+
+        <div class="social-links">
+            <a href="https://linkedin.com/in/abhishekapurva" class="social-link" target="_blank"
+                rel="noopener noreferrer">
+                <i class='bx bxl-linkedin-square'></i> LinkedIn
+            </a>
+            <a href="https://github.com/abhishekapurva0809" class="social-link" target="_blank"
+                rel="noopener noreferrer">
+                <i class='bx bxl-github'></i> GitHub
+            </a>
+        </div>
+
+        <div class="availability">
+            <span class="availability-label"
+                style="font-size: 0.7rem; color: var(--sidebar-text); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 5px; display: block;">AVAILABILITY:</span>
+            <div class="availability-status">
+                <span class="status-dot"></span> OPEN TO WORK
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="card">
+
+            <div class="section-header">
+                <div class="section-icon" style="background: none; border-radius: 0; margin-right: 15px;"><i
+                        class='bx bxl-sketch' style="color: var(--primary-color);"></i></div>
+                <h2 class="section-title">Skills</h2>
+            </div>
+
+            <div class="skills-container">
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Languages</h3>
+                    <div class="skills-list">
+                        <div class="skill-item"><i class='bx bx-code-alt'></i> C++</div>
+                        <div class="skill-item"><i class='bx bxl-python'></i> Python</div>
+                        <div class="skill-item"><i class='bx bxl-html5'></i> HTML</div>
+                        <div class="skill-item"><i class='bx bxl-css3'></i> CSS</div>
+                        <div class="skill-item"><i class='bx bxl-javascript'></i> Javascript</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Frameworks</h3>
+                    <div class="skills-list">
+                        <div class="skill-item"><i class='bx bxl-react'></i> React</div>
+                        <div class="skill-item"><i class='bx bxl-stripe'></i> Next.js</div>
+                        <div class="skill-item"><i class='bx bx-code-curly'></i> Express.js</div>
+                        <div class="skill-item"><i class='bx bxl-nodejs'></i> Node.js</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Databases</h3>
+                    <div class="skills-list">
+                        <div class="skill-item"><i class='bx bxl-mongodb'></i> MongoDB</div>
+                        <div class="skill-item"><i class='bx bx-data'></i> MySQL</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Tools</h3>
+                    <div class="skills-list">
+                        <div class="skill-item"><i class='bx bxl-git'></i> Git</div>
+                        <div class="skill-item"><i class='bx bxl-github'></i> Github</div>
+                        <div class="skill-item"><i class='bx bx-code-block'></i> VS Code</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
