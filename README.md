@@ -22,5 +22,9 @@ This repository includes different versions of the portfolio, demonstrating my l
 - [LinkedIn](https://www.linkedin.com/in/abhishekapurva)
 - [GitHub](https://github.com/abhishekapurva0809)
 
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](file:///c:/Users/ASUS/Desktop/Portfolio%20Website/LICENSE) file for details.
+
 ---
 *Created by Abhishek Apurva*
+
