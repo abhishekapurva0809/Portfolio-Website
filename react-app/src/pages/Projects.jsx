@@ -7,10 +7,19 @@ const Projects = () => {
         {
             id: 1,
             title: "Personal Portfolio Website",
-            category: "webapp",
+            category: "website",
             image: "/portfolio_project1.png",
             description: "A responsive, modern personal portfolio website built to showcase my skills, projects, and educational background. Features smooth scrolling, a sticky navigation sidebar, and dynamic filtering for projects. Designed with a clean, professional aesthetic and optimized for both desktop and mobile viewing.",
             tags: ["HTML", "CSS", "JavaScript", "React", "Next.js"]
+        },
+        {
+            id: 2,
+            title: "Unify - The Chat Website",
+            category: "webapp",
+            image: "/unify_project.png",
+            description: "Unify is a modern full-stack real-time messaging platform powered by React, Node.js, Express, MongoDB, and Socket.IO. It delivers seamless bidirectional communication with secure JWT authentication, typing indicators, active presence tracking, file/media sharing, and a responsive, beautiful UI built with Tailwind CSS.",
+            tags: ["React", "Node.js", "Express", "MongoDB", "Socket.IO", "Tailwind CSS", "JWT"],
+            link: "https://unify-delta.vercel.app/"
         }
     ];
 
@@ -39,17 +48,43 @@ const Projects = () => {
                 >
                     Web App
                 </button>
+                <button
+                    onClick={() => setFilter('website')}
+                    className={`filter-btn ${filter === 'website' ? 'active' : ''}`}
+                >
+                    Website
+                </button>
             </div>
 
             <div className="projects-grid">
                 {filteredProjects.map(project => (
                     <div key={project.id} className="project-card" data-category={project.category}>
                         <div className="project-img-container">
-                            <img
-                                src={project.image}
-                                alt={project.title}
-                                className="project-img"
-                            />
+                            {project.link ? (
+                                <a
+                                    href={project.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="project-img-link"
+                                >
+                                    <img
+                                        src={project.image}
+                                        alt={project.title}
+                                        className="project-img"
+                                    />
+                                    <div className="project-img-overlay">
+                                        <span className="overlay-btn">
+                                            <i className='bx bx-link-external'></i> Live Demo
+                                        </span>
+                                    </div>
+                                </a>
+                            ) : (
+                                <img
+                                    src={project.image}
+                                    alt={project.title}
+                                    className="project-img"
+                                />
+                            )}
                         </div>
                         <div className="project-info">
                             <h3 className="project-title">{project.title}</h3>
