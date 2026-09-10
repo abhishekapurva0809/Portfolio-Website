@@ -10,20 +10,20 @@ export default function Projects() {
     const projects = [
         {
             id: 1,
-            title: 'Personal Portfolio Website',
-            desc: 'A responsive, modern personal portfolio website built to showcase my skills, projects, and educational background. Features smooth scrolling, a sticky navigation sidebar, and dynamic filtering for projects. Designed with a clean, professional aesthetic and optimized for both desktop and mobile viewing.',
-            img: '/portfolio_project1.png',
-            category: 'website',
-            tags: ['HTML', 'CSS', 'JavaScript', 'React', 'Next.js']
-        },
-        {
-            id: 2,
             title: 'Unify - The Chat Website',
             desc: 'Unify is a modern full-stack real-time messaging platform powered by React, Node.js, Express, MongoDB, and Socket.IO. It delivers seamless bidirectional communication with secure JWT authentication, typing indicators, active presence tracking, file/media sharing, and a responsive, beautiful UI built with Tailwind CSS.',
             img: '/unify_project.png',
             category: 'webapp',
             tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Socket.IO', 'Tailwind CSS', 'JWT'],
             link: 'https://unify-delta.vercel.app/'
+        },
+        {
+            id: 2,
+            title: 'Personal Portfolio Website',
+            desc: 'A responsive, modern personal portfolio website built to showcase my skills, projects, and educational background. Features smooth scrolling, a sticky navigation sidebar, and dynamic filtering for projects. Designed with a clean, professional aesthetic and optimized for both desktop and mobile viewing.',
+            img: '/portfolio_project1.png',
+            category: 'website',
+            tags: ['HTML', 'CSS', 'JavaScript', 'React', 'Next.js']
         },
     ];
 
