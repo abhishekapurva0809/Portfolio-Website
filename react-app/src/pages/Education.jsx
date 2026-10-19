@@ -41,7 +41,32 @@ const Education = () => {
                             <li>Deployed web applications using modern platforms such as Vercel and GitHub Pages.</li>
                         </ul>
                         <div style={{ marginTop: '15px' }}>
-                            <a href="/web_dev_certificate.jpeg" className="btn btn-primary" style={{ padding: '8px 15px', fontSize: '0.9rem' }} download>
+                            <a href="/web_dev_certificate.jpeg" className="btn btn-primary cert-btn" style={{ padding: '8px 15px', fontSize: '0.9rem' }} download>
+                                <i className='bx bx-award' style={{ marginRight: '5px' }}></i> Download Certificate
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="timeline-item">
+                    <div className="timeline-dot"></div>
+                    <h3 className="timeline-title">DSA : C++</h3>
+                    <div className="timeline-subtitle">Apna College | July 2026 - October 2026</div>
+                    <div className="timeline-content">
+                        <p>Completed a comprehensive Data Structures and Algorithms (DSA) course, strengthening problem-solving skills and mastering fundamental and advanced algorithmic concepts using C++.</p>
+                        <ul>
+                            <li>Learned core data structures, including arrays, linked lists, stacks, queues, trees, graphs, and tries.</li>
+                            <li>Implemented searching and sorting algorithms to solve computational problems efficiently.</li>
+                            <li>Mastered recursion, backtracking, and dynamic programming to solve complex problems.</li>
+                            <li>Explored graph algorithms, including BFS, DFS, Dijkstra’s algorithm, and topological sorting.</li>
+                            <li>Learned advanced concepts such as segment trees, disjoint sets, and minimum spanning trees.</li>
+                            <li>Analyzed time and space complexity to optimize code performance.</li>
+                            <li>Practiced competitive programming and algorithmic problem-solving using C++.</li>
+                            <li>Strengthened logical thinking, debugging, and analytical skills through hands-on coding exercises.</li>
+                            <li>Developed a strong foundation for solving coding interview problems and tackling real-world computational challenges.</li>
+                        </ul>
+                        <div style={{ marginTop: '15px' }}>
+                            <a href="/cpp_dsa_certificate.pdf" className="btn btn-primary cert-btn" style={{ padding: '8px 15px', fontSize: '0.9rem' }} download>
                                 <i className='bx bx-award' style={{ marginRight: '5px' }}></i> Download Certificate
                             </a>
                         </div>
