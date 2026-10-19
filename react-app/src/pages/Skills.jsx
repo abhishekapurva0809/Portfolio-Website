@@ -19,6 +19,8 @@ const Skills = () => {
                         <div className="skill-item"><i className='bx bxl-html5'></i> HTML</div>
                         <div className="skill-item"><i className='bx bxl-css3'></i> CSS</div>
                         <div className="skill-item"><i className='bx bxl-javascript'></i> Javascript</div>
+                        <div className="skill-item"><i className='bx bxl-typescript'></i> TypeScript</div>
+                        <div className="skill-item"><i className='bx bx-data'></i> SQL</div>
                     </div>
                 </div>
 
@@ -29,6 +31,7 @@ const Skills = () => {
                         <div className="skill-item"><i className='bx bxl-stripe'></i> Next.js</div>
                         <div className="skill-item"><i className='bx bx-code-curly'></i> Express.js</div>
                         <div className="skill-item"><i className='bx bxl-nodejs'></i> Node.js</div>
+                        <div className="skill-item"><i className='bx bxl-tailwind-css'></i> Tailwind CSS</div>
                     </div>
                 </div>
 
@@ -37,6 +40,7 @@ const Skills = () => {
                     <div className="skills-list">
                         <div className="skill-item"><i className='bx bxl-mongodb'></i> MongoDB</div>
                         <div className="skill-item"><i className='bx bx-data'></i> MySQL</div>
+                        <div className="skill-item"><i className='bx bx-server'></i> Redis</div>
                     </div>
                 </div>
 
@@ -45,6 +49,9 @@ const Skills = () => {
                     <div className="skills-list">
                         <div className="skill-item"><i className='bx bxl-git'></i> Git</div>
                         <div className="skill-item"><i className='bx bxl-github'></i> Github</div>
+                        <div className="skill-item"><i className='bx bxl-docker'></i> Docker</div>
+                        <div className="skill-item"><i className='bx bx-git-merge'></i> CI/CD</div>
+                        <div className="skill-item"><i className='bx bxl-kubernetes'></i> Kubernetes</div>
                         <div className="skill-item"><i className='bx bx-code-block'></i> VS Code</div>
                     </div>
                 </div>
